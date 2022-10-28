@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  body{
+      
+      color:#ffffff;
+  }
+  .panel{
+    background-color:lightgray;
+    width: 60%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px auto;
+  }
+  div{
+    padding: 5px;
+  }
+ .btn{
+    background-color: blue;
+    border: 2px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0 2px #000000;
+    text-align: center;
+    text-decoration: none;
+
+ }
+ #btnReset{
+    background-color:red;
+ }
+ h1{
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+ }
+ label{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+ }
+ input, select{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 15px;
+    margin: 10px, 0;
+    font-size: 18px;
+    border-radius: 5px;
+
+ }
+.logout{
+    background-color:red;
+}
+p{
+    font-size: 25px;
+}
+.pLogin{
+    background-color: aquamarine;
+} 
+.hLogin{
+    color:blueviolet;
+} 
